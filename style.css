@@ -1,0 +1,190 @@
+{
+    margin = 0;
+    padding = 0;
+    
+}
+header
+{
+   background-image: url(logo.png)
+}
+body 
+{
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background_bricks.jpeg);
+    height: 100vh;
+    width: 100%
+
+
+}
+
+/*********************************** NAVIGATION ***********************************/
+.navigation
+{
+    margin-top: 25px;
+    margin-left: -30px;
+    float: left;
+    list-style: none;
+    
+}
+
+.navigation li
+{
+    display: inline-block;
+}
+
+.navigation li a
+{
+    color: #07ffd9;
+    opacity: 0.7;
+    text-decoration: none;
+    padding: 4px 4px;
+    font-family: "Montserrat";
+  
+    font-size: 18px;
+    
+}
+
+.navigation li.active a
+{
+  opacity: 1;
+    
+}
+
+.navigation li a:hover
+{
+  
+    opacity: 1;
+    font-size: 18.5px;
+}
+.row
+{
+    
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+
+/*********************************** LOGO ***********************************/
+.logo img
+{
+    width: 100px;
+    height: auto;
+    float: left;
+    transform: translate(5%);
+    
+}
+
+
+/*********************************** PAGE FONTS ***********************************/
+wordsFont
+{
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#51636d;
+
+    font-size: 6em;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 2px;
+}
+
+/*********************************** WELCOME FONTS***********************************/
+welcomeFont
+{
+  position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    color:#51636d;
+    
+
+    font-size: 6em;
+    line-height: 80px;
+    -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 2px;
+}
+
+welcomeTitle
+{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color:#51636d;
+
+    font-size: 8em;
+    letter-spacing: 5px;
+    -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 4px;
+    
+}
+
+welcomeSubtitle
+{
+ position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, 300%);
+    color:#6e6482;
+
+    font-size: 25px;
+    letter-spacing: 5px;
+    
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1px;
+}
+   
+    
+.mainPageWelcome
+{
+    background-color: black;
+}
+
+/*********************************** DASHBOARD***********************************/
+
+.column {
+    float: left;
+    width: 33.33%;
+    border-bottom-color: beige;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2
+{
+    transform: translate(0%,-62%);
+   border-style: groove; 
+    
+}
+
+p
+{
+    
+    border-style: groove
+}
+
+g 
+{
+   
+    color: midnightblue;
+   
+    text-decoration: none;
+}
+
+g:active 
+{
+   color: darkseagreen;
+}
+g:visited
+{
+    background-color: aqua;
+}
